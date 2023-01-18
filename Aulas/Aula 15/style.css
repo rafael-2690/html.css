@@ -1,0 +1,20 @@
+@charset "UTF-8"; /* Regra  */
+
+    body{
+        background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    h1{
+        color: mediumblue;
+        background-color: lightcoral;
+        font-size: 1.5em;
+    }
+    h2{
+        color: darkred;
+        font-size: 1.2em;
+    }
+    p{
+        text-align: justify;
+        font-size: 1em;
+    }

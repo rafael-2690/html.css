@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/tamanho-pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/tamanho-medio.png" type="image/png">
+        <img src="Imagens/tamanho-grande.png" alt="Foto grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir um audio</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <source src="midia/Ice & Fire - King Canyon.ogg" type="audio/ogg">
+        <source src="midia/Ice & Fire - King Canyon.wav" type="audio/wav">
+        <p>Infelismente o seu navegador não consegue reporduzir o áudio <a href="midia/Ice & Fire - King Canyon.mp3">Clique aqui para fazer dowload do arquivo</a></p>
+    </audio>
+    
+</body>
+</html>

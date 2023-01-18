@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo essa imagem completa? Experimente Ampliar o tamanho da aba do seu navegador, e veja o resultado &#x1F92F</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/paisagem-m.png" type="image/png">
+        <img src="Imagens/paisagem-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

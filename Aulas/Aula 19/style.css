@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+Tudo em HTML que é 'id' fica como # em CSS
+Tudo em HTMl que é 'class' fica como . em CSS
+A tag span serve para colocar class num trecho do parágrafo
+*/
+
+body{
+    background-color: #67AAF9;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: #C4E0F9;
+}
+h1#principal{
+    text-align: center;
+    background-color: #2EC0F9;
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: #B2DBBF;
+}
+h2.basico{
+    color: #b2dbb4;
+}
+h2.intermediario{
+    color: #d4dbb2;
+}
+h2.avançado{
+    color: #dbb2b2;
+}
+.destaque{
+    background-color: red;
+}

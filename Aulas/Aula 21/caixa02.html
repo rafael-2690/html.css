@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            text-align: center;
+            background-color:rgb(175, 175, 175);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            box-shadow: inset 4px 4px 7px 1px rgba(0, 0, 0, 0.233);
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            text-align: justify;
+            background-color: rgb(73, 73, 73);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 0px;
+        }
+        article{
+            background-color: rgb(179, 179, 179);
+            padding: 3px;
+        }
+        article>aside{
+            background-color: rgba(39, 39, 39, 0.623);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: aqua;
+            border-radius: 50%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Receita de cookie</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nesciunt ducimus et atque cupiditate repellat fuga libero! Beatae minima ad culpa sit, ipsam fugiat quae dolores facere consectetur natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis beatae eos corrupti cum dolorum consequatur a nostrum quidem iusto quis sequi dolores, similique unde? Error facere illo repellendus eos.</p>
+                <aside>
+                    <p>Receita criada por Vanessa Camargo.</p>
+                </aside>
+            </article>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias de ???</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima recusandae ab quidem sequi saepe suscipit quia quisquam, ipsa at nisi quo, architecto est fugiat expedita! Officiis tempora et soluta maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum ratione minima quasi fugiat excepturi asperiores odio inventore! Accusantium consectetur temporibus soluta amet nihil explicabo nulla recusandae provident ullam commodi?</p>
+                <aside>
+                    <p>Artido escrito por josé da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias do Brasil.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum enim ad molestiae quos laboriosam similique aliquam quas mollitia at praesentium, quasi quia corrupti dolore facere ipsa molestias eveniet odio expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus, illo deserunt laborum in blanditiis? Aliquam rem mollitia ipsa, eaque dolores architecto quam sapiente magnam odit iure tenetur possimus dolore.</p>
+                <aside>
+                    <p>Artigo escrito por Jonathan Soares.</p>
+                </aside>
+
+            </article>
+             
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+
+</body>
+</html>
