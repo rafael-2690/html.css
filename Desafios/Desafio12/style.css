@@ -11,9 +11,9 @@
 }
 
 *{
+
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;    
 }
 header{
     background-color: black;
@@ -24,9 +24,11 @@ header{
 header>h1{
     font-family: letra, Arial, Helvetica, sans-serif ;
     font-size: 10em;
+    font-variant: small-caps;
+    padding-top: 20px;
 }
 header>p{
-    padding-top: 10px;
+    padding-bottom: 20px;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,17 +36,14 @@ main{
     font-family: titulo , Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: 2.7em;
-    
 }
 main>p{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     font-size: 1.5em;
-}
-main>br{
-    padding: 20px;
+    padding-left: 20px;
+    
 }
 div#pri{
-    padding-top: 20px;
     color: white;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
@@ -53,7 +52,6 @@ div#pri{
     box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.562);
 }
 div#seg{
-    padding-top: 20px;
     color: white;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
@@ -64,8 +62,10 @@ div#seg{
 span>p{
     font-size: 1.5em;
 }
-div>span{
-    background-color: rgb(0, 0, 0);
+div{
+    background-color: gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 a{
     text-decoration: none;
@@ -86,5 +86,11 @@ footer{
 main>p{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+div>p{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding-left: 50px;
+    font-size: 1.5em;
 }
 
