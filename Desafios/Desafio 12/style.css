@@ -12,6 +12,7 @@
 
 *{
     margin: 0px;
+    padding: 0px;
     
 }
 header{
@@ -21,15 +22,18 @@ header{
     text-align: center;
 }
 header>h1{
-    font-family: titulo, Arial, Helvetica, sans-serif ;
+    font-family: letra, Arial, Helvetica, sans-serif ;
+    font-size: 10em;
 }
 header>p{
     padding-top: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    font-family: letra, Arial, Helvetica, sans-serif;
+    font-family: titulo , Arial, Helvetica, sans-serif;
     text-align: justify;
-    padding-left: 15px;
+    font-size: 2.7em;
     
 }
 main>p{
@@ -39,17 +43,37 @@ main>p{
 main>br{
     padding: 20px;
 }
-div{
-    padding-top: 40px;
+div#pri{
+    padding-top: 20px;
     color: white;
-    height: 300px;
-    width: 500px;
-    background-image: url(imagens/background002.png);
+    background-image: url(imagens/background001.jpg);
+    
+}
+div#seg{
+    padding-top: 20px;
+    color: white;
+    background-image: url(imagens/background002.jpg);
 }
 span>p{
     font-size: 1.5em;
 }
 div>span{
     background-color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
 }
 
