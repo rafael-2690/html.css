@@ -7,15 +7,42 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="" method="get">
-
-        
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+    <form action="" method="post">
+    <p>
+        <label for="iestado">Estado:</label>
+        <select name="estado" id="iestado">
+            <option value="" selected>Selecione...</option>
+        <optgroup label="Nordeste">
+            <option value="BA">Bahia</option>
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+        </optgroup>
+        <optgroup label="Sudeste">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+    </p>
+    <p>
+        <br>
+        <label for="iprof">Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="lst">
+        <datalist id="lst">
+            <option>Administrador</option>
+            <option>Contador</option>
+            <option>Desenvolvedor</option>
+            <option>Professor</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">Mensagem:</label> <br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>   
     </form>
-    
+
 </body>
 </html>
