@@ -1,5 +1,5 @@
-@charset "UTF-8";
-
+/*Declarações gerais*/
+@media all{
 *{
     padding: 0px;
     margin: 0px;
@@ -16,5 +16,24 @@ h1{
     color: white;
     text-shadow: 2px 2px 0px #19289cbd;
     padding: 10px;
+    }
+    }
 
+    /*Declarações retrato*/
+
+@media screen and (orientation: portrait) {
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}  
+}    
+
+
+    /*Declarações paisagem*/
+
+@media screen and (orientation: landscape){
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
 }
