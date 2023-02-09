@@ -1,0 +1,22 @@
+@charset "UTF-8"; 
+
+*{
+    padding: 10px;
+    margin: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article::after{
+    font-size: 0.5em;
+    content: 'Esse artigo foi impresso pelo site ddsasdaads.com';
+    font-family: 'Courier New', Courier, monospace;
+}
+article{
+    width: 100%;
+}
