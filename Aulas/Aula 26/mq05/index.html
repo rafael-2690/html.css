@@ -7,8 +7,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/geral.css">
-    <link rel="stylesheet" href="estilos/tablet.css">
-    <link rel="stylesheet" href="estilos/pc.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
+    <link rel="stylesheet" href="estilos/telagrande.css" media="screen and (min-width: 1200px)">
 </head>
 <body>
     <header>
@@ -46,7 +47,7 @@
                 menu.style.display = 'none'
             }
             else{ 
-                
+
                 menu.style.display = 'block'
             }    
         }

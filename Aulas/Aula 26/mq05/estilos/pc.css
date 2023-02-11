@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+menu{
+    display: block;
+}
+#hamb{
+    display: none;
+}
+ul{
+    width: 500px;
+    columns: 5;
+}
+main{
+    width: 75vw;
+}

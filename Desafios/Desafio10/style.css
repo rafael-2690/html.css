@@ -80,11 +80,11 @@ article>h2{
 }
 article>p{
     font-size: 1em;
-    text-align: justify;
+    text-align: center;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom:10px;
     text-indent: 20px;
 }
 iframe{

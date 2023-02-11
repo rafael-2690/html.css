@@ -58,10 +58,13 @@ main{
     margin-top: 10px ;
 }
 article>h2{
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
-p{
+p{  
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: justify;
     margin-bottom: 2 0px;
     text-indent: 20px;
