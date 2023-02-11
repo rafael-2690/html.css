@@ -18,8 +18,20 @@ header>h1{
     text-align: center;
     padding: 10px;
 }
-menu{
+#hamb{
+    background-color: rgb(80, 80, 80);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#hamb:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
 }
 menu>ul{
     list-style-type: none;
@@ -51,6 +63,6 @@ article>h2{
 
 p{
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 2 0px;
     text-indent: 20px;
 }
