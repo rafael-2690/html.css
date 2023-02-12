@@ -6,7 +6,9 @@ menu{
 #hamb{
     display: none;
 }
-ul{
-    width: 500px;
-    columns: 5;
+li{
+    display: inline-block;
+}
+main{
+    width: 768px;
 }
