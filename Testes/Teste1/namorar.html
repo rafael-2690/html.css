@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+            color: white;
+        }
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        button{
+            background-color: red;
+            color: white;
+            width: 100px;
+            position: absolute;
+        }
+        .hiden{
+            display: none;
+        }
+        #move{
+            left: 200px;
+        }
+        #change{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>Quer namorar comigo?</p>
+    <button id="change">Não</button>
+    <button class="hiden" id="move">Não</button>
+</body>
+<script>
+    $("#change").click(function(){
+        $("change").html("Sim");
+        $("move").show();
+    });
+
+    $("#move").hover(function(){
+        change();
+    });
+
+    function change(){
+        var i = Math.floor(Math.random()*500)+1;
+        var j = Math.floor(Math.random()*100)+1;
+        $("#move").css({top: j+'px',left:   i+'px'});
+    }
+</script>
+</html>
