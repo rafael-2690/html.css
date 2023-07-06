@@ -7,48 +7,23 @@
     <style>
         body{
             background-color: pink;
-            color: white;
         }
         p{
-            font-size: 30px;
-            font-weight: bold;
+            font-size: 20px;
         }
         button{
-            background-color: red;
-            color: white;
-            width: 100px;
-            position: absolute;
-        }
-        .hiden{
-            display: none;
-        }
-        #move{
-            left: 200px;
-        }
-        #change{
-            cursor: pointer;
+            display: inline-block;
+            font-size: 15px;
         }
     </style>
 </head>
 <body>
     <p>Quer namorar comigo?</p>
-    <button id="change">Não</button>
-    <button class="hiden" id="move">Não</button>
+    <button id="S1">Sim</button>
+    <button id="S2">Não</button>
 </body>
 <script>
-    $("#change").click(function(){
-        $("change").html("Sim");
-        $("move").show();
-    });
-
-    $("#move").hover(function(){
-        change();
-    });
-
-    function change(){
-        var i = Math.floor(Math.random()*500)+1;
-        var j = Math.floor(Math.random()*100)+1;
-        $("#move").css({top: j+'px',left:   i+'px'});
-    }
+    
+    
 </script>
 </html>
