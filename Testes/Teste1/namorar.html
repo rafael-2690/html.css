@@ -4,26 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color: pink;
-        }
-        p{
-            font-size: 20px;
-        }
-        button{
-            display: inline-block;
-            font-size: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Quer namorar comigo?</p>
-    <button id="S1">Sim</button>
-    <button id="S2">Não</button>
+    <div id="conteudo">
+    <h2>Quer namorar comigo?</h2>
+    <button onclick="sim()" class="btn">Sim</button>
+    <button onclick="desviar(this)" onmouseover="desviar(this)" class="btn">Não</button>
+    </div>
+    
 </body>
-<script>
-    
-    
-</script>
+<script src="script.js"></script>
 </html>
