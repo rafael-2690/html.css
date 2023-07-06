@@ -13,6 +13,8 @@ function desviar(t) {
 function posisao(min, max){
     return (Math.random() * (max - min) + min) + "%";
 }
-function sumir(){
+function sumir(t){
+    var btn = t;
+    btn.style.display = 'none';
     
 }
